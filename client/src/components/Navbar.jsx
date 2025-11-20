@@ -39,7 +39,6 @@ const Navbar = () => {
                     <img src={nav_cart_icon} alt="cart" className='w-6 opacity-80'/>
                     <button className="absolute -top-2 -right-3 text-xs text-white bg-[#5BB756] w-[18px] h-[18px] rounded-full">3</button>
                 </div>
-                 <h1>hellooo</h1>
                 {!user ? ( <button onClick={()=> setShowUserLogin(true)}
                     className="cursor-pointer px-8 py-2 bg-[#5BB756] hover:bg-primary-dull transition text-white rounded-full">
                     Login
